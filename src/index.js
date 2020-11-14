@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if(input.value !== "") {
       let task = document.createElement("LI");
       task.innerHtml = input.textContent;
-      taskList.appendChild(task);
+      document.taskList.appendChild(task);
     }
   });
 });
