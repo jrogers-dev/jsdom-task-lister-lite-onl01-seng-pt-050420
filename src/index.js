@@ -8,7 +8,8 @@ document.addEventListener("DOMContentLoaded", () => {
   form.addEventListener("submit", function(e) {
     e.preventDefault();
     if(input.textContent !== "") {
-      document.
+      let task = document.createElement("LI");
+      task.innerHtml = input.textContent;
     }
   });
 });
