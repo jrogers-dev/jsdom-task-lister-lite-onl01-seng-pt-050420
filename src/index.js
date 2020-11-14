@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if(input.textContent !== "") {
       let task = document.createElement("LI");
       task.innerHtml = input.textContent;
-      taskList.append
+      taskList.appendChild(task);
     }
   });
 });
