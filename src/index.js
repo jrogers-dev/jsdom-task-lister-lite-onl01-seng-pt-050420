@@ -12,6 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
     console.log(input.textContent);
     console.log(input.innerText);
     console.log(input.text);
+    console.log(input.value);
     
     if(input.textContent !== "") {
       let task = document.createElement("LI");
