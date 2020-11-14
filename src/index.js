@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
   form.addEventListener("submit", function(e) {
     e.preventDefault();
     if(input.textContent !== "") {
-      
+      document.
     }
   });
 });
