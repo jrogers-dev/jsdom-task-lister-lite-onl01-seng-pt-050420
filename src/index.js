@@ -7,14 +7,8 @@ document.addEventListener("DOMContentLoaded", () => {
   
   form.addEventListener("submit", function(e) {
     e.preventDefault();
-    console.log(input);
-    console.log(input.innerHtml);
-    console.log(input.textContent);
-    console.log(input.innerText);
-    console.log(input.text);
-    console.log(input.value);
-    
-    if(input.textContent !== "") {
+
+    if(input.value !== "") {
       let task = document.createElement("LI");
       task.innerHtml = input.textContent;
       taskList.appendChild(task);
